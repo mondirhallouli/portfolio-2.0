@@ -1,0 +1,44 @@
+:root {
+  /* primary colors */
+  --purple: rgb(89, 40, 229);
+  --pink: rgb(240, 169, 255);
+  --black: rgb(34, 34, 34);
+  --white: rgb(255, 255, 255);
+
+  /* secondary colors */
+  --half-purple: rgba(89, 40, 229, 0.5);
+  --card-gray: rgb(244, 244, 244);
+
+  /* fonts and weights */
+  --main-font: 'Montserrat', sans-serif;
+  --copy-font: 'Open Sans', sans-serif;
+  --fw-medium: 600;
+  --fw-bold: 700;
+}
+
+/* RESET */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--main-font);
+}
+
+/* TYPOGRAPHY  */
+a, a:visited, a:active {
+  display: inline-block;
+  font-family: var(--copy-font);
+  text-decoration: none;
+  color: var(--black);
+  transition: all 150ms ease-in;
+  cursor: pointer;
+}
+
+/* LISTS */
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
