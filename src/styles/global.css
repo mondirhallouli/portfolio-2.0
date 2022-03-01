@@ -25,7 +25,7 @@
 }
 
 /* TYPOGRAPHY  */
-a, a:visited, a:active {
+a {
   display: inline-block;
   font-family: var(--copy-font);
   text-decoration: none;
