@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import HeaderComponent from "./components/header/Header";
 import MenuComponent from "./components/header/MobileMenu";
+import SkillsComponent from './components/skills/Skills';
 
 function App() {
   // opening and closing mobile menu by checking the openMenu state
@@ -14,6 +15,7 @@ function App() {
     <div>
       <HeaderComponent openMenu={handleMenu} />
       <MenuComponent open={openMenu} closeMenu={handleMenu} />
+      <SkillsComponent />
     </div>
   );
 }
