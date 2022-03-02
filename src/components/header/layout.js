@@ -5,25 +5,26 @@ import headerBgBig from '../../assets/images/header-big.svg'
 
 /*
   == COMOPONENT SUMMARY ==
-  --> Header --> line 20
-  --> Nav --> line 38
-  --> NavContainer --> line 56
-  --> Logo --> line 69
-  --> MenuBtn --> line 80
-  --> MenuList --> line 108
-  --> MenuItem --> line 117
-  --> MenuLink --> line 124
-  --> HeaderTitle --> line 132
-  --> Menu --> line 156
-  --> Close --> line 169
-  --> LinksWrapper --> line 205
-  --> MobileLink --> line 213
+  --> Header --> line 24
+  --> Nav --> line 44
+  --> NavContainer --> line 63
+  --> Logo --> line 76
+  --> MenuBtn --> line 87
+  --> MenuList --> line 115
+  --> MenuItem --> line 124
+  --> MenuLink --> line 131
+  --> HeaderTitle --> line 139
+  --> Menu --> line 158
+  --> Close --> line 171
+  --> LinksWrapper --> line 207
+  --> MobileLink --> line 215
 */
 
 // Header
 export const Header = styled.header`
   width: 100%;
   height: 100vh;
+  margin-bottom: ${rem(40)};
   position: relative;
   background-image: url(${headerBgMb});
   background-size: cover;
@@ -35,6 +36,7 @@ export const Header = styled.header`
 
   @media (min-width: ${rem(1023)}) {
     background-image: url(${headerBgBig});
+    margin-bottom: ${rem(60)};
   }
 `;
 
