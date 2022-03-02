@@ -44,7 +44,7 @@ export const Header = styled.header`
 export const Nav = styled.nav`
   width: 100%;
   margin-bottom: ${rem(76)};
-  padding: ${rem(30)} ${rem(36)};
+  padding: ${rem(18)} ${rem(36)};
   position: fixed;
   top: 0;
   background: ${props => props.setBg ? "var(--purple)" : "transparent"};
