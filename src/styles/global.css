@@ -16,6 +16,11 @@
   --fw-bold: 700;
 }
 
+/* SMOOTH SCROLLING */
+html {
+  scroll-behavior: smooth;
+}
+
 /* RESET */
 *, *::before, *::after {
   margin: 0;
