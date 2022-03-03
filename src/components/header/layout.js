@@ -162,7 +162,7 @@ export const Menu = styled.div`
     linear-gradient(to bottom left, var(--purple), var(--pink));
   padding: ${rem(30)} ${rem(36)};
   position: fixed;
-  top: ${props => props.open ? '0' : '-100%'};
+  top: ${props => props.open ? '0' : '-150%'};
   z-index: 100;
   transition: top 150ms ease-in;
 `;
