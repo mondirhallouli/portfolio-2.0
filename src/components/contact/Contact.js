@@ -6,8 +6,8 @@ import {
 } from './styledComponents'
 
 function ContactComponent() {
-  const linkedinLink = '';
-  const githubLink = '';
+  const linkedinLink = 'https://www.linkedin.com/in/mondir-hallouli/';
+  const githubLink = 'https://github.com/mondirhallouli';
   return (
     <ContactContainer>
       <SectionTitle>Contact</SectionTitle>
