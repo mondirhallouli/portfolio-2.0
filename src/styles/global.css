@@ -16,6 +16,27 @@
   --fw-bold: 700;
 }
 
+/* SCROLLBAR STYLES */
+/* width */
+::-webkit-scrollbar {
+  width: 0.75rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: var(--card-gray);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--purple);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--purple); 
+}
+
 /* SMOOTH SCROLLING */
 html {
   scroll-behavior: smooth;

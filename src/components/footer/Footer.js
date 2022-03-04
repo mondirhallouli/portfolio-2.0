@@ -12,7 +12,7 @@ function FooterComponent() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <FooterLogo>
+        <FooterLogo href="/">
           <img src={logo} alt="mondir hallouli's logo" />
         </FooterLogo>
         <FooterYear>&copy; 2022</FooterYear>
