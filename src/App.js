@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import ContactComponent from './components/contact/Contact';
 import HeaderComponent from "./components/header/Header";
 import MenuComponent from "./components/header/MobileMenu";
 import ProjectsComponent from './components/projects/Projects';
@@ -18,6 +19,7 @@ function App() {
       <MenuComponent open={openMenu} closeMenu={handleMenu} />
       <SkillsComponent />
       <ProjectsComponent />
+      <ContactComponent />
     </div>
   );
 }
