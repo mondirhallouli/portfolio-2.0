@@ -42,10 +42,18 @@ function HeaderComponent({ openMenu }) {
           {/* desktop menu list */}
           <MenuList>
             <MenuItem>
-              <MenuLink href="#projects">Projects</MenuLink>
+              <MenuLink
+                onClick={() => document.querySelectorAll('section')[1].scrollIntoView(true)}
+              >
+                Projects
+              </MenuLink>
             </MenuItem>
             <MenuItem>
-              <MenuLink href='#contact'>Contact</MenuLink>
+              <MenuLink
+                onClick={() => document.querySelectorAll('section')[2].scrollIntoView(true)}
+              >
+                Contact
+              </MenuLink>
             </MenuItem>
             <MenuItem>
               <MenuLink href='https://docs.google.com/document/d/1iqAk4MQNinumHgRGhYil4lRFs47rAdp3QzKCTTIYia0/edit' target="_blank">Resume</MenuLink>
