@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import ContactComponent from './components/contact/Contact';
+import FooterComponent from './components/footer/Footer';
 import HeaderComponent from "./components/header/Header";
 import MenuComponent from "./components/header/MobileMenu";
 import ProjectsComponent from './components/projects/Projects';
@@ -20,6 +21,7 @@ function App() {
       <SkillsComponent />
       <ProjectsComponent />
       <ContactComponent />
+      <FooterComponent />
     </div>
   );
 }
