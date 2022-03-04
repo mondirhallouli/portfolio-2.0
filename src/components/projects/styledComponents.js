@@ -4,22 +4,21 @@ import { rem } from '../../utils'
 /*
   == COMOPONENT SUMMARY ==
   --> ProjectsContainer --> line 19
-  --> ProjectCard --> line 30
-  --> ProjectThumbnail --> line 47
-  --> ProjectDetails --> line 68
-  --> ProjectTitle --> line 85
-  --> ProjectDesc --> line 96
-  --> ProjectSkills --> line 112
-  --> SkillTag --> line 124
-  --> ProjectLinks --> line 133
-  --> ProjectLink --> line 136
+  --> ProjectCard --> line 29
+  --> ProjectThumbnail --> line 45
+  --> ProjectDetails --> line 66
+  --> ProjectTitle --> line 83
+  --> ProjectDesc --> line 94
+  --> ProjectSkills --> line 110
+  --> SkillTag --> line 122
+  --> ProjectLinks --> line 131
+  --> ProjectLink --> line 134
 */
 
 // ProjectsContainer
 export const ProjectsContainer = styled.section`
   width: calc(100% - ${rem(72)});
   margin: 0 auto ${rem(60)};
-  text-align: center;
 
   @media (min-width: ${rem(1279)}) {
     width: ${rem(964)};
@@ -28,7 +27,6 @@ export const ProjectsContainer = styled.section`
 
 // ProjectCard
 export const ProjectCard = styled.div`
-  text-align: left;
   background-color: var(--card-gray);
   box-shadow: 
     0px 3px 6px -2px rgba(0, 0, 0, 0.16),
