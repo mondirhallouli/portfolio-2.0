@@ -27,6 +27,7 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: var(--main-font);
+  color: var(--black);
 }
 
 /* TYPOGRAPHY  */
@@ -34,7 +35,6 @@ a {
   display: inline-block;
   font-family: var(--copy-font);
   text-decoration: none;
-  color: var(--black);
   transition: all 150ms ease-in;
   cursor: pointer;
 }

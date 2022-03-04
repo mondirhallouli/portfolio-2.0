@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import HeaderComponent from "./components/header/Header";
 import MenuComponent from "./components/header/MobileMenu";
+import ProjectsComponent from './components/projects/Projects';
 import SkillsComponent from './components/skills/Skills';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <HeaderComponent openMenu={handleMenu} />
       <MenuComponent open={openMenu} closeMenu={handleMenu} />
       <SkillsComponent />
+      <ProjectsComponent />
     </div>
   );
 }
