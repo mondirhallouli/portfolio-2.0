@@ -1,7 +1,7 @@
-import { SectionTitle } from '../layout';
 import {
   Skills,
   TitleWrapper,
+  SkillSectionTitle,
   Subtitle,
   SkillsContainer,
   SkillCategory,
@@ -15,7 +15,7 @@ function SkillsComponent() {
     <Skills>
       {/* Section Title & Subtitle */}
       <TitleWrapper>
-        <SectionTitle>Skills</SectionTitle>
+        <SkillSectionTitle>Skills</SkillSectionTitle>
         <Subtitle>These are the skills and technologies I work with</Subtitle>
       </TitleWrapper>
       <SkillsContainer>
