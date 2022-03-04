@@ -3,14 +3,15 @@ import { rem } from '../../utils';
 
 /*
   == COMOPONENT SUMMARY ==
-  --> Skills --> line 17
+  --> Skills --> line 18
   --> TitleWrapper --> line 34
-  --> Subtitle --> line 46
-  --> SkillsContainer --> line 57
-  --> SkillCategory --> line 72
-  --> CategoryName --> line 90
-  --> SkillsWrapper --> line 106
-  --> SkillName --> line 119
+  --> SkillSectionTitle --> line 47
+  --> Subtitle --> line 61
+  --> SkillsContainer --> line 72
+  --> SkillCategory --> line 87
+  --> CategoryName --> line 105
+  --> SkillsWrapper --> line 121
+  --> SkillName --> line 134
 */
 
 // Skills
@@ -39,6 +40,20 @@ export const TitleWrapper = styled.div`
   @media (min-width: ${rem(767)}) {
     margin: 0;
     text-align: left;
+  }
+`;
+
+// SkillSectionTitle
+export const SkillSectionTitle = styled.h1`
+  font-weight: normal;
+  font-size: ${rem(40)};
+  color: var(--purple);
+  margin-bottom: ${rem(16)};
+
+  @media (min-width: ${rem(767)}) {
+    font-size: ${rem(50)};
+    text-align: left;
+    margin-bottom: ${rem(20)};
   }
 `;
 
