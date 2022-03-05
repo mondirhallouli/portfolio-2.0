@@ -12,7 +12,7 @@ function CardComponent({ img, demoLink, codeLink, children }) {
     <ProjectCard>
       {/* project thumbnail */}
       <ProjectThumbnail>
-        <img src={img} />
+        <img src={img} alt="" />
       </ProjectThumbnail>
       {/* project details section */}
       <ProjectDetails>
