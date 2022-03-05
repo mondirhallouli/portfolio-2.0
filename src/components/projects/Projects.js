@@ -38,7 +38,7 @@ function ProjectsComponent() {
           <SkillTag>Figma</SkillTag>
           <SkillTag>React</SkillTag>
           <SkillTag>CSS</SkillTag>
-          <SkillTag>Styled-Comoponents</SkillTag>
+          <SkillTag>Styled-Components</SkillTag>
           <SkillTag>Redux</SkillTag>
         </ProjectSkills>
       </CardComponent>
