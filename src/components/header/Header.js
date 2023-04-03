@@ -56,7 +56,7 @@ function HeaderComponent({ openMenu }) {
               </MenuLink>
             </MenuItem>
             <MenuItem>
-              <MenuLink href='https://docs.google.com/document/d/1iqAk4MQNinumHgRGhYil4lRFs47rAdp3QzKCTTIYia0/edit' target="_blank">Resume</MenuLink>
+              <MenuLink href='https://docs.google.com/document/d/1sZrVOGfdLUf4zovxLtu-4pMDbJLYaN2TSmhBhJWnQKg/edit?usp=sharing' target="_blank">Resume</MenuLink>
             </MenuItem>
           </MenuList>
 
