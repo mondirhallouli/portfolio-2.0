@@ -14,16 +14,16 @@ import CardComponent from "./Card";
 
 function ProjectsComponent() {
   // Eshop ecommerce URLs
-  const eshopDemo = "https://eshop.mondirhallouli.com/";
+  const eshopDemo = "https://eshop-ecommerce.pages.dev/";
   const eshopCode = "https://github.com/mondirhallouli/eshop-ecommerce";
   // OG Bball project URLs for code and live version
-  const ogbballDemo = "https://ogbball.mondirhallouli.com/";
+  const ogbballDemo = "https://ogbball-site.pages.dev/";
   const ogbballCode = "https://github.com/mondirhallouli/ogbball-site";
   // DevTask project URLs
-  const devtaskDemo = "https://devtask.mondirhallouli.com/";
+  const devtaskDemo = "https://devtask-manager.pages.dev/";
   const devtaskCode = "https://github.com/mondirhallouli/devtask-manager";
   // Sweet & Cool project URLs
-  const sncDemo = "https://icecream.mondirhallouli.com/";
+  const sncDemo = "https://ice-cream-website.pages.dev/";
   const sncCode = "https://github.com/mondirhallouli/ice-cream-website";
 
   return (
