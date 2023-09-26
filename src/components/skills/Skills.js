@@ -28,14 +28,21 @@ function SkillsComponent() {
             <SkillName>JavaScript</SkillName>
           </SkillsWrapper>
         </SkillCategory>
+        {/* Databases and Backend */}
+        <SkillCategory>
+          <CategoryName>Databases/Backend</CategoryName>
+          <SkillsWrapper>
+            <SkillName>MongoDB</SkillName>
+          </SkillsWrapper>
+        </SkillCategory>
         {/* Frameworks & libraries category */}
         <SkillCategory>
           <CategoryName>Frameworks & Libraries</CategoryName>
           <SkillsWrapper>
-            <SkillName>React</SkillName>
-            <SkillName>Redux</SkillName>
-            <SkillName>Styled-Components</SkillName>
-            <SkillName>SASS/SCSS</SkillName>
+            <SkillName>React JS</SkillName>
+            <SkillName>Express JS</SkillName>
+            <SkillName>Tailwind CSS</SkillName>
+            <SkillName>Mongoose</SkillName>
           </SkillsWrapper>
         </SkillCategory>
         {/* Version Control category */}

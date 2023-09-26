@@ -10,9 +10,13 @@ import ogbbThumb from "../../assets/images/ogbball-thumb.png";
 import devtaskThumb from "../../assets/images/devtask-thumb.png";
 import sweetThumb from "../../assets/images/sweet-&-cool-thumb.png";
 import eshopThumb from "../../assets/images/eshop-thumb.png";
+import bugbustersThumb from "../../assets/images/bug-busters-thumb.png";
 import CardComponent from "./Card";
 
 function ProjectsComponent() {
+  // Bug busters URLs
+  const bugbusterDemo = "https://bug-busters.onrender.com/";
+  const bugbusterCode = "https://github.com/mondirhallouli/bug-busters";
   // Eshop ecommerce URLs
   const eshopDemo = "https://eshop-ecommerce.pages.dev/";
   const eshopCode = "https://github.com/mondirhallouli/eshop-ecommerce";
@@ -29,6 +33,23 @@ function ProjectsComponent() {
   return (
     <ProjectsContainer>
       <SectionTitle>Projects</SectionTitle>
+      {/* 1st project */}
+      <CardComponent img={bugbustersThumb} demoLink={bugbusterDemo} codeLink={bugbusterCode}>
+        <ProjectTitle>Bug busters</ProjectTitle>
+        <ProjectDesc>
+          Bug busters is small community driven bug sharing platform for developers to help each other.
+        </ProjectDesc>
+        <ProjectSkills>
+          <SkillTag>React JS</SkillTag>
+          <SkillTag>React-Router</SkillTag>
+          <SkillTag>Tailwind CSS</SkillTag>
+          <SkillTag>Express JS</SkillTag>
+          <SkillTag>MongoDB</SkillTag>
+          <SkillTag>Mongoose</SkillTag>
+          <SkillTag>JWT</SkillTag>
+        </ProjectSkills>
+      </CardComponent>
+
       {/* 1st project */}
       <CardComponent img={eshopThumb} demoLink={eshopDemo} codeLink={eshopCode}>
         <ProjectTitle>Eshop ecommerce</ProjectTitle>
